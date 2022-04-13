@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fidetronic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FideTronic">
+        <activity
+            android:name=".Sillas"
+            android:exported="false" />
+        <activity
+            android:name=".Perifericos"
+            android:exported="false" />
+        <activity
+            android:name=".Monitores"
+            android:exported="false" />
+        <activity
+            android:name=".LgUltra"
+            android:exported="false" />
+        <activity
+            android:name=".Lenovo"
+            android:exported="false" />
+        <activity
+            android:name=".Laptops"
+            android:exported="false" />
+        <activity
+            android:name=".ImagenSonido"
+            android:exported="false" />
+        <activity
+            android:name=".Gaming"
+            android:exported="false" />
+        <activity
+            android:name=".Elbrus3"
+            android:exported="false" />
+        <activity
+            android:name=".Componentes"
+            android:exported="false" />
+        <activity
+            android:name=".AcerK3"
+            android:exported="false" />
+        <activity
+            android:name=".Computadoras"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
